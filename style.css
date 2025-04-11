@@ -2,3 +2,9 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+#header {
+    background: #64150C;
+    height: 50px;
+    position: relative;
+}
