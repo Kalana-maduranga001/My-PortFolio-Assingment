@@ -6,7 +6,17 @@
 </head>
 <body>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let progressBars = document.querySelectorAll(".progress-fill");
 
+        progressBars.forEach((bar) => {
+            let percentage = bar.getAttribute("data-percentage");
+            bar.style.width = percentage + "%";  // Animate to target width
+        });
+
+    });
+</script>
 
 <header id="header">
 
