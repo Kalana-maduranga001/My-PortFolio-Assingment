@@ -8,3 +8,20 @@ html {
     height: 50px;
     position: relative;
 }
+
+#logo img:first-child{
+    width: 62.1px;
+    margin-right: 10px;
+    border-radius: 100%;
+    animation: spin 2s linear infinite;
+}
+
+#logo img:nth-child(8) {
+    width: 42.1px;
+    padding-right: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
