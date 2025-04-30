@@ -59,7 +59,7 @@ html, body {
     font-size: large;
     border: 1px solid rgb(246, 234, 234);
     border-radius: 15%;
-    background-image: rgb(91, 6, 6);
+    /*background-image: rgb(91, 6, 6);*/
     animation: glow 1.5s infinite alternate;
 }
 
@@ -193,7 +193,7 @@ html, body {
 /* Animation for Paragraph */
 .info p {
     opacity: 0;
-    font-size: m;
+    font-size: medium;
     transform: translateY(20px);
     animation: fadeInUp 1.5s ease-out 1.5s forwards;
 }
