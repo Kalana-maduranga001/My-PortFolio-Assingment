@@ -497,6 +497,7 @@ nav a:hover {
 }
 
 #my-service p {
+
     max-width: 600px;
     margin: 0 auto 40px auto;
     font-size: 16px;
