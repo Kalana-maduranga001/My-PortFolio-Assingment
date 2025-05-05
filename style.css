@@ -611,6 +611,10 @@ nav a:hover {
     height: 180px; /* Reduce image height */
 }
 
+.portfolio-item:nth-child(2) {
+    height: 200px;
+}
+
 .portfolio-item.large {
     grid-column: span 2; /* Large item spans 2 columns */
     height: 200px; /* Slightly larger for a focal point */
