@@ -18,8 +18,18 @@ html, body {
     display: none;
 }
 
-@media(max-width: 768px){
+@media(max-width: 374px){
+    #logo div {
+        display: none;
+    }
+}
+
+
+@media(max-width: 1052px){
     .Icons{display: block;}
+    #navigation {
+        display: none;
+    }
 }
 
 
@@ -320,9 +330,9 @@ html, body {
 }
 
 @media (max-width: 320px) {
-    .profile-img {
-        display: none !important; /* Force hide profile image */
-    }
+    /*.profile-img {*/
+    /*    display: none !important; !* Force hide profile image *!*/
+    /*}*/
 
     .stat-box {
         width: 100px;
@@ -859,9 +869,9 @@ nav a:hover {
 
 
 @media (max-width: 320px) {
-    .profile-img {
-        display: none !important; /* Force hide profile image */
-    }
+    /*.profile-img {*/
+    /*    display: none !important; !* Force hide profile image *!*/
+    /*}*/
 }
 
 @media (max-width: 100px) {
@@ -876,7 +886,8 @@ nav a:hover {
 /* Hide profile image at smaller screen widths */
 @media (max-width: 768px) {
     .profile-img {
-        display: none !important; /* Hide profile image for screens less than 768px */
+        width: 200px;
+        height: 200px;/* Hide profile image for screens less than 768px */
     }
 
     .stat-box {
@@ -936,4 +947,12 @@ p {
     #about-me p {
         color: black;
     }
+}
+
+.font-type-1 {
+    font-family: 'Tagesschrift', sans-serif;
+}
+
+.font-type-2 {
+    font-family: 'Bebas Neue', sans-serif;
 }
